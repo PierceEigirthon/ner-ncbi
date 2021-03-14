@@ -1,7 +1,7 @@
 # NER for NCBI Disease
 This repo contains code for training Named Entity Recognition ([NER](https://en.wikipedia.org/wiki/Named-entity_recognition)) task for [NCBI disease](https://www.ncbi.nlm.nih.gov/research/bionlp/Data/disease/) dataset, by fine-tuning [distilbert](https://arxiv.org/pdf/1910.01108.pdf).
 
-# Instalation
+# Installation
 You can use your prefered  manager (conda pyenv, pipenv etc etc.) and install from requirements.txt
 * NOTE: requirements.txt does not include torch, as I'm using pipenv and it breaks with cuda+11, so I have to manually install it using:
 * "pipenv run pip install torch==1.8.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html"
